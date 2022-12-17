@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <title>justify</title>
+    
+    <style>
+          .row [class^=col-], .row .col{
+            background-color: #ddd;
+            border: 1px solid red;
+            height: 50px;
+        }
+        .row{
+            background-color: red;
+            padding: 10px;
+            height: 500px;
+        }
+    </style>
+
+</head>
+<body>
+    <!--
+        o justify content alinha na horizontal e o align items 
+        alinha na vertical
+    -->
+   <div class="container">
+    <div class="row align-items-end justify-content-center">
+        <div class="col-3 order-1">1</div>
+        <div class="col-3 order-3">2</div>
+        <div class="col-3">3</div>
+    </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
